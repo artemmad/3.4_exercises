@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
                     Thread.sleep(1000); //Приостанавливает поток на 1 секунду
                 } catch (InterruptedException e) {
                 }
-                handler.sendEmptyMessage(1);  // отправка сообщения хендлеру
+                handler.sendEmptyMessage((1));  // отправка сообщения хендлеру
             }
         }
     }
